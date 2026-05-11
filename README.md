@@ -41,7 +41,7 @@ We have completed the foundational architecture, implementing a modern transform
 - **Normalization:** RMSNorm
 - **Positional Encodings:** RoPE (Rotary Position Embeddings)
 
-##  Getting Started
+## Getting Started
 
 ### 1. Prerequisites
 Ensure you have the `phoenix-engine` installed in your environment.
@@ -55,7 +55,7 @@ Run the architecture verification script to ensure the model initializes correct
 python tests/test_architecture.py
 ```
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [x] **Phase 3:** Model Architecture (Base)
 - [ ] **Phase 1:** Data Pipeline (Ingestion, Cleaning, Deduplication)
