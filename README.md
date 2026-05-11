@@ -2,14 +2,14 @@
 
 A from-scratch implementation of a high-performance, decoder-only Transformer language model, built on top of the custom **Phoenix Engine** framework.
 
-## 📖 Project Overview
+## Project Overview
 
 Phoenix-LLM is designed to be a modular, scalable, and highly optimized LLM platform. Following a phase-by-phase build plan, we are constructing every component of the stack—from the data pipeline and tokenizer to the distributed training loop and streaming inference API.
 
 ### Current Progress: **Phase 3 (Model Architecture)**
 We have completed the foundational architecture, implementing a modern transformer stack optimized for the Phoenix Engine backend.
 
-## ✨ Key Features
+## Key Features
 
 - **Consolidated GQA/MHA:** An optimized Grouped Query Attention module that generalizes Multi-Head Attention for better inference efficiency.
 - **SwiGLU FFN:** Implementation of the state-of-the-art Gated Linear Unit activation structure.
@@ -17,7 +17,7 @@ We have completed the foundational architecture, implementing a modern transform
 - **Weight Tying:** Shared weights between token embeddings and the LM head to reduce parameter count and improve convergence.
 - **Modular Design:** Independent components for attention, FFNs, normalization, and positional encodings.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 ├── components/           # Modular model components
