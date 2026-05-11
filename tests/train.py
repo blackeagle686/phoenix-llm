@@ -6,7 +6,7 @@ sys.path.append(os.path.join(os.getcwd(), "venv", "Lib", "site-packages", "phoen
 
 from phoenix_engine import Tensor
 from core.config import ModelConfig
-from models.transformer import LanguageModel
+from models.base.model import PhoenixModel
 from training.trainer import Trainer
 import random
 
@@ -31,7 +31,7 @@ def main():
         max_seq_len=64
     )
     
-    model = LanguageModel(config)
+    model = PhoenixModel(config)
     
     trainer = Trainer(
         model=model,

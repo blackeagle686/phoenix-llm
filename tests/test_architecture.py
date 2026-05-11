@@ -6,7 +6,7 @@ sys.path.append(os.path.join(os.getcwd(), "venv", "Lib", "site-packages", "phoen
 
 from phoenix_engine import Tensor
 from core.config import ModelConfig
-from models.transformer import LanguageModel
+from models.base.model import PhoenixModel
 
 def test_model_init():
     print("Initializing ModelConfig (Small)...")
@@ -18,8 +18,8 @@ def test_model_init():
         max_seq_len=64
     )
     
-    print("Building LanguageModel...")
-    model = LanguageModel(config)
+    print("Building PhoenixModel...")
+    model = PhoenixModel(config)
     
     print("Creating dummy input...")
     # [Batch=2, SeqLen=16]
