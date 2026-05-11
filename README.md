@@ -41,7 +41,7 @@ We have completed the foundational architecture, implementing a modern transform
 - **Normalization:** RMSNorm
 - **Positional Encodings:** RoPE (Rotary Position Embeddings)
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Prerequisites
 Ensure you have the `phoenix-engine` installed in your environment.
