@@ -35,7 +35,7 @@ We have completed the foundational architecture, implementing a modern transform
 
 ##  Tech Stack
 
-- **Engine:** [Phoenix Engine](https://github.com/blackeagle686/phoenix-engine) (Custom C++ Backend)
+- **Engine:** [Phoenix Engine](https://github.com/blackeagle686/phoenix-ai/tree/master/phoenix_engine) (Custom C++ Backend)
 - **Language:** Python 3.11+
 - **Architecture:** Decoder-only Transformer
 - **Normalization:** RMSNorm
