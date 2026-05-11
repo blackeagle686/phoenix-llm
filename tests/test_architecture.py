@@ -1,7 +1,8 @@
 import sys
 import os
-# Add current directory to path
+# Add current directory and phoenix_engine directory to path
 sys.path.append(os.getcwd())
+sys.path.append(os.path.join(os.getcwd(), "venv", "Lib", "site-packages", "phoenix_engine"))
 
 from phoenix_engine import Tensor
 from core.config import ModelConfig
