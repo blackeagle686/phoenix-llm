@@ -1,4 +1,4 @@
-# Phoenix-LLM 🚀
+# Phoenix-LLM 
 
 A from-scratch implementation of a high-performance, decoder-only Transformer language model, built on top of the custom **Phoenix Engine** framework.
 
