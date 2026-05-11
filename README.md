@@ -33,7 +33,7 @@ We have completed the foundational architecture, implementing a modern transform
 └── plan.md               # Master build specification
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Engine:** [Phoenix Engine](https://github.com/blackeagle686/phoenix-engine) (Custom C++ Backend)
 - **Language:** Python 3.11+
